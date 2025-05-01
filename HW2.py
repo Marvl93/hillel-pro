@@ -61,7 +61,7 @@ def add_student(name: str, marks: list[int], details: str | None):
     new_student = {
         'id': new_id,
         'name': name,
-        'marks': marks,'kmnyttrr'
+        'marks': marks,
         'info': details if details is not None else ""
     }
     students.append(new_student)
