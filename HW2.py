@@ -68,6 +68,5 @@ def add_student(name: str, marks: list[int], details: str | None):
     print(f"ID: {new_id} Додано студента '{name}', з оцінками: {marks} .")
 
 
-
 if __name__ == "__main__":
     main()
